@@ -20,14 +20,12 @@ function Contar(){
         else if(I < F){
             // Contagem crescente
             for(let c = I; c <= F; c += P){
-                console.log(c);
                 res.innerHTML += `${c} \u{1F449}`;
             }
         }
         else{
             // Contagem decrescente
             for(let c = I; c >= F; c -= P){
-                console.log(c);
                 res.innerHTML += `${c} \u{1F449}`;
             }
         }
